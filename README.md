@@ -10,7 +10,7 @@
 
 8월 1주차
 
-- [42586](https://programmers.co.kr/learn/courses/30/lessons/42586?language=swift) >> [리드미!](./Links/42586.md)
-- [62048](https://programmers.co.kr/learn/courses/30/lessons/62048?language=swift) >>
+- [42586](./Links/42586.md) - 완료
+- [62048](https://programmers.co.kr/learn/courses/30/lessons/62048?language=swift) :
 - [42583](https://programmers.co.kr/learn/courses/30/lessons/42583) >>
 - [42587](https://programmers.co.kr/learn/courses/30/lessons/42587) >>
