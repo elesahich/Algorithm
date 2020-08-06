@@ -13,4 +13,4 @@
 - [42586](./Links/42586.md) - 완료
 - [62048](./Links/62048.md) - 완료
 - [42583](./Links/42583.md) - 완료
-- [42587](https://programmers.co.kr/learn/courses/30/lessons/42587)
+- [42587](./Links/42587.md) - 완료
