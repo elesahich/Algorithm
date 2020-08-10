@@ -17,12 +17,10 @@
 |[42587](./Links/42587.md)|프린터|완료|스택/큐|
 |[42840](./Links/42840.md)|모의고사|완료|완전탐색|
 
-
 8월 2주차 (08.10 ~ 08.16)
 |문제 번호| 제목 | 완료 여부 |유형|
 |:------:|:------:|:------:|:------:|
 |[43163](https://programmers.co.kr/learn/courses/30/lessons/43163)|단어 변환|미완료|BFS/DFS|
-|[42628](https://programmers.co.kr/learn/courses/30/lessons/42628)|이중우선순위큐|미완료|Heap|
+|[42628](./Links/42628.md)|이중우선순위큐|완료|Heap|
 |[42842](https://programmers.co.kr/learn/courses/30/lessons/42842)|카펫|미완료|BFS/DFS|
 |[42860](https://programmers.co.kr/learn/courses/30/lessons/42860)|조이스틱|미완료|Greedy|
-
