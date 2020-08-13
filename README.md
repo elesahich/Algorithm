@@ -21,6 +21,6 @@
 |문제 번호| 제목 | 완료 여부 |유형|
 |:------:|:------:|:------:|:------:|
 |[42628](./Links/42628.md)|이중우선순위큐|완료|Heap|
-|[42860](./Links/42860)|조이스틱|..세모..|Greedy|
+|[42860](./Links/42860.md)|조이스틱|..세모..|Greedy|
 |[43163](https://programmers.co.kr/learn/courses/30/lessons/43163)|단어 변환|진행중|BFS/DFS|
 |[42842](https://programmers.co.kr/learn/courses/30/lessons/42842)|카펫|미완료|BFS/DFS|
