@@ -25,3 +25,10 @@
 |[43163](./Links/43163.md)|단어 변환|완료|BFS/DFS|
 |[42842](./Links/42842.md)|카펫|완료|BFS/DFS|
 |[42892](./Links/42892.md)|길찾기 게임|완료|Tree|
+
+8월 3주차 (08.17 ~ 08.24)
+|문제 번호| 제목 | 완료 여부 |유형|
+|:------:|:------:|:------:|:------:|
+|[12913](https://programmers.co.kr/learn/courses/30/lessons/12913)| 땅따먹기 |-|BFS/DFS|
+|[42579](https://programmers.co.kr/learn/courses/30/lessons/42579)| 베스트 앨범 |-|Hash|
+|[42883](https://programmers.co.kr/learn/courses/30/lessons/42883)| 큰 수 만들기 |-|Greedy|
