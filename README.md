@@ -29,6 +29,6 @@
 8월 3주차 (08.17 ~ 08.24)
 |문제 번호| 제목 | 완료 여부 |유형|
 |:------:|:------:|:------:|:------:|
-|[12913](https://programmers.co.kr/learn/courses/30/lessons/12913)| 땅따먹기 |-|BFS/DFS|
+|[12913](./Links/12913.md)| 땅따먹기 |-|Dynamic Programming|
 |[42579](https://programmers.co.kr/learn/courses/30/lessons/42579)| 베스트 앨범 |-|Hash|
 |[42883](https://programmers.co.kr/learn/courses/30/lessons/42883)| 큰 수 만들기 |-|Greedy|
