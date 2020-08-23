@@ -32,5 +32,5 @@
 |[12913](./Links/12913.md)| 땅따먹기 |완료|Dynamic Programming|
 |[42579](./Links/42579.md)| 베스트 앨범 |완료|Hash|
 |[42883](./Links/42883.md)| 큰 수 만들기 |완료|Greedy|
-|[43165](https://programmers.co.kr/learn/courses/30/lessons/43165)| 타겟 넘버 |-|BFS/DFS|
+|[43165](./Links/43165.md)| 타겟 넘버 |완료|BFS/DFS|
 |[12978](https://programmers.co.kr/learn/courses/30/lessons/12978)| 배달 |-|BFS/DFS|
