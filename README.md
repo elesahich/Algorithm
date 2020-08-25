@@ -38,7 +38,7 @@
 8월 4주차 (08.25 ~ 08.31)
 |문제 번호| 제목 | 완료 여부 |유형|
 |:------:|:------:|:------:|:------:|
-|[42748](https://programmers.co.kr/learn/courses/30/lessons/42748)| K번째 수 |완료|-|
+|[42748](./Links/42748.md)| K번째 수 |완료|-|
 |[12909](https://programmers.co.kr/learn/courses/30/lessons/12909)| 올바른 괄호 | - |완전탐색|
 |[64064](https://programmers.co.kr/learn/courses/30/lessons/64064)| 불량 사용자 | - |완전탐색|
 |[42747](https://programmers.co.kr/learn/courses/30/lessons/42747)| H-Index | - |BFS/DFS|
