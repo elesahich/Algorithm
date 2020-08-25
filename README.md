@@ -34,3 +34,12 @@
 |[42883](./Links/42883.md)| 큰 수 만들기 |완료|Greedy|
 |[43165](./Links/43165.md)| 타겟 넘버 |완료|BFS/DFS|
 |[12978](https://programmers.co.kr/learn/courses/30/lessons/12978)| 배달 |-|BFS/DFS|
+
+8월 4주차 (08.25 ~ 08.31)
+|문제 번호| 제목 | 완료 여부 |유형|
+|:------:|:------:|:------:|:------:|
+|[42748](https://programmers.co.kr/learn/courses/30/lessons/42748)| K번째 수 |완료|-|
+|[12909](https://programmers.co.kr/learn/courses/30/lessons/12909)| 올바른 괄호 | - |완전탐색|
+|[64064](https://programmers.co.kr/learn/courses/30/lessons/64064)| 불량 사용자 | - |완전탐색|
+|[42747](https://programmers.co.kr/learn/courses/30/lessons/42747)| H-Index | - |BFS/DFS|
+|[42584](https://programmers.co.kr/learn/courses/30/lessons/42584)| 주식 가격 |-|스택/큐|
