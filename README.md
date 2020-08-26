@@ -41,5 +41,5 @@
 |[42748](./Links/42748.md)| K번째 수 |완료|-|
 |[12909](https://programmers.co.kr/learn/courses/30/lessons/12909)| 올바른 괄호 | - |완전탐색|
 |[64064](https://programmers.co.kr/learn/courses/30/lessons/64064)| 불량 사용자 | - |완전탐색|
-|[42747](https://programmers.co.kr/learn/courses/30/lessons/42747)| H-Index | - |BFS/DFS|
+|[42747](./Links/42747.md)| H-Index | 완료 |정렬|
 |[42584](https://programmers.co.kr/learn/courses/30/lessons/42584)| 주식 가격 |-|스택/큐|
