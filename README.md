@@ -42,4 +42,4 @@
 |[12909](./Links/12909.md)| 올바른 괄호 | 완료 |배열|
 |[64064](https://programmers.co.kr/learn/courses/30/lessons/64064)| 불량 사용자 | - |완전탐색|
 |[42747](./Links/42747.md)| H-Index | 완료 |정렬|
-|[42584](https://programmers.co.kr/learn/courses/30/lessons/42584)| 주식 가격 |-|스택/큐|
+|[42584](./Links/42584.md)| 주식 가격 | 완료 |스택/큐|
