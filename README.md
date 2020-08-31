@@ -26,7 +26,7 @@
 |[42842](./Links/42842.md)|카펫|완료|BFS/DFS|
 |[42892](./Links/42892.md)|길찾기 게임|완료|Tree|
 
-8월 3주차 (08.17 ~ 08.24)
+8월 3주차 (08.17 ~ 08.23)
 |문제 번호| 제목 | 완료 여부 |유형|
 |:------:|:------:|:------:|:------:|
 |[12913](./Links/12913.md)| 땅따먹기 |완료|Dynamic Programming|
@@ -35,11 +35,20 @@
 |[43165](./Links/43165.md)| 타겟 넘버 |완료|BFS/DFS|
 |[12978](https://programmers.co.kr/learn/courses/30/lessons/12978)| 배달 |-|BFS/DFS|
 
-8월 4주차 (08.25 ~ 08.31)
+8월 4주차 (08.24 ~ 08.30)
 |문제 번호| 제목 | 완료 여부 |유형|
 |:------:|:------:|:------:|:------:|
 |[42748](./Links/42748.md)| K번째 수 |완료|-|
 |[12909](./Links/12909.md)| 올바른 괄호 | 완료 |배열|
-|[64064](https://programmers.co.kr/learn/courses/30/lessons/64064)| 불량 사용자 | - |완전탐색|
+|[64064](https://programmers.co.kr/learn/courses/30/lessons/64064)| 불량 사용자 | ㅠㅠ실패 |완전탐색|
 |[42747](./Links/42747.md)| H-Index | 완료 |정렬|
 |[42584](./Links/42584.md)| 주식 가격 | 완료 |스택/큐|
+
+9월 1주차 (08.31 ~ 09.07)
+|문제 번호| 제목 | 완료 여부 |유형|
+|:------:|:------:|:------:|:------:|
+|[60057](./Links/60057.md)| 문자열 압축 |완료| 문자열 |
+|[60063](https://programmers.co.kr/learn/courses/30/lessons/60063)| 블록 이동하기 | - | - |
+|[64065](https://programmers.co.kr/learn/courses/30/lessons/64065)| 튜플 | - | - |
+|[43164](https://programmers.co.kr/learn/courses/30/lessons/43164)| 여행 경로 | - | 완전탐색 |
+|[42578](https://programmers.co.kr/learn/courses/30/lessons/42578)| 위장 | - | 해시 |
