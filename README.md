@@ -50,5 +50,5 @@
 |[60057](./Links/60057.md)| 문자열 압축 |완료| 문자열 |
 |[60063](https://programmers.co.kr/learn/courses/30/lessons/60063)| 블록 이동하기 | - | - |
 |[64065](https://programmers.co.kr/learn/courses/30/lessons/64065)| 튜플 | - | - |
-|[43164](https://programmers.co.kr/learn/courses/30/lessons/43164)| 여행 경로 | - | 완전탐색 |
+|[43164](./Links/43164.md| 여행 경로 | 완료 | 완전탐색 |
 |[42578](https://programmers.co.kr/learn/courses/30/lessons/42578)| 위장 | - | 해시 |
