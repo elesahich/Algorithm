@@ -5,12 +5,9 @@
 //  Created by elesahich on 2020/09/02.
 //  Copyright © 2020 elesahich. All rights reserved.
 //  64065
-
-
-
 import Foundation
 
-func solution(_ s: String) -> [Int] {
+private func solution(_ s: String) -> [Int] {
 
     let ans = s
         .trimmingCharacters(in: ["{"])
@@ -47,7 +44,7 @@ func solution(_ s: String) -> [Int] {
     return answer
 }
 
-print(solution("{{20,111},{111}}"))
+//print(solution("{{20,111},{111}}"))
 //print(solution("{{4,2,3},{3},{2,3,4,1},{2,3}}"))
 
 

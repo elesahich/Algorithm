@@ -8,9 +8,9 @@
 
 import Foundation
 
-func solution(_ operations: [String]) -> [Int] {
+private func solution(_ operations: [String]) -> [Int] {
     var tempArray: [Int] = []
-    operations.map {
+    operations.forEach() {
         let firstValue = $0.first ?? nil
         let lastValue = $0.split(separator: " ").last
         
@@ -37,6 +37,5 @@ func solution(_ operations: [String]) -> [Int] {
     return resultArray
 }
 
-print(solution(["I -45", "I 653", "D 1", "I -642", "I 45", "I 97", "D 1", "D -1", "I 333"]))
-
+//print(solution(["I -45", "I 653", "D 1", "I -642", "I 45", "I 97", "D 1", "D -1", "I 333"]))
 //print(solution(["I 16","D 1"]))

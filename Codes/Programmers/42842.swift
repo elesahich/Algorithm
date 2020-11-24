@@ -27,5 +27,5 @@ func solution(_ brown: Int, _ yellow: Int) -> [Int] {
     return array.filter({ ($0[0]-2) * ($0[1]-2) == yellow }).first?.sorted(by: >) ?? []
 }
 
-print(solution(24, 24))
-print(solution(10, 2))
+//print(solution(24, 24))
+//print(solution(10, 2))

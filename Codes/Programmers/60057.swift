@@ -61,20 +61,20 @@ private func solution(_ s: String) -> Int {
 //print(solution("aabbaccc"))
 //print(solution("ababcdcdababcdcd"))
 //print(solution("abcabcdede"))
-print(solution("xababcdcdababcdcd"))
+//print(solution("xababcdcdababcdcd"))
 
-extension String {
-    func getArrayAfterRegex(regex: String) -> [String] {
-        do {
-            let regex = try NSRegularExpression(pattern: regex)
-            let results = regex.matches(in: self,
-                                        range: NSRange(self.startIndex..<self.endIndex, in: self))
-            return results.map {
-                String(self[Range($0.range, in: self)!])
-            }
-        } catch let error {
-            print("invalid regex: \(error.localizedDescription)")
-            return []
-        }
-    }
-}
+//extension String {
+//    func getArrayAfterRegex(regex: String) -> [String] {
+//        do {
+//            let regex = try NSRegularExpression(pattern: regex)
+//            let results = regex.matches(in: self,
+//                                        range: NSRange(self.startIndex..<self.endIndex, in: self))
+//            return results.map {
+//                String(self[Range($0.range, in: self)!])
+//            }
+//        } catch let error {
+//            print("invalid regex: \(error.localizedDescription)")
+//            return []
+//        }
+//    }
+//}

@@ -13,7 +13,7 @@ import Foundation
 // 2. 장르 안에서는 많이 재생된 노래를 먼저 수록
 // 3. 1/2를 동시에 만족하는 경우 고유번호가 낮은 노래를 먼저 수록
 
-func solution(_ genres: [String], _ plays: [Int]) -> [Int] {
+private func solution(_ genres: [String], _ plays: [Int]) -> [Int] {
 
     var set: Set<String> = []
     genres.forEach { set.insert($0) }
@@ -31,7 +31,6 @@ func solution(_ genres: [String], _ plays: [Int]) -> [Int] {
         }
     }
     
-    print(storageArray)
     var acculmulateDic: [Int: Int] = [:]
     acculmulateArray.enumerated().forEach {
         acculmulateDic[$0] = $1
@@ -61,4 +60,4 @@ func solution(_ genres: [String], _ plays: [Int]) -> [Int] {
 }
 
 //print(solution(["classic", "pop", "classic", "classic", "pop"], [500, 600, 500, 800, 2500]))
-print(solution(["classic", "pop", "classic", "pop", "classic", "classic"] , [400,600,150,2500,500,500]))
+//print(solution(["classic", "pop", "classic", "pop", "classic", "classic"] , [400,600,150,2500,500,500]))

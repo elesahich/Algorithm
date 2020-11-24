@@ -8,9 +8,9 @@
     
 import Foundation
 
-func solution(_ array: [Int], _ commands: [[Int]]) -> [Int] {
+private func solution(_ array: [Int], _ commands: [[Int]]) -> [Int] {
     var answer: [Int] = []
-    commands.map() {
+    commands.forEach() {
         let range = $0[0...1]
         let val = array[range[0]-1...range[1]-1]
             .sorted(by: { $0 < $1 })[$0[2]-1]
@@ -19,4 +19,4 @@ func solution(_ array: [Int], _ commands: [[Int]]) -> [Int] {
     return answer
 }
 
-print(solution([1,5,2,6,3,7,4], [[2,5,3],[4,4,1],[1,7,3]]))
+//print(solution([1,5,2,6,3,7,4], [[2,5,3],[4,4,1],[1,7,3]]))

@@ -8,7 +8,7 @@
 
 import Foundation
 
-func solution(_ begin: String, _ target: String, _ words: [String]) -> Int {
+private func solution(_ begin: String, _ target: String, _ words: [String]) -> Int {
     if !words.contains(target) {
         return 0
     }
@@ -45,6 +45,8 @@ func diffCount(_ begin: String, _ target: String, _ wordArray: [String], _ count
     }
     
     if flag == false {
+        matchArray = []
+        difference = []
         return diffCount(before, target, words, count+1)
     }
 }

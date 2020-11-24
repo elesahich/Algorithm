@@ -8,7 +8,7 @@
 
 import Foundation
 
-func solution(_ answers: [Int]) -> [Int] {
+private func solution(_ answers: [Int]) -> [Int] {
     let arrayA = [1,2,3,4,5]
     let arrayB = [2,1,2,3,2,4,2,5]
     let arrayC = [3,3,1,1,2,2,4,4,5,5]
@@ -29,5 +29,5 @@ func solution(_ answers: [Int]) -> [Int] {
     return result
 }
 
-print(solution([1,3,2,4,2]))
-print(solution([1,2,3,4,5]))
+//print(solution([1,3,2,4,2]))
+//print(solution([1,2,3,4,5]))

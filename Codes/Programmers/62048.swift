@@ -10,7 +10,7 @@ import Foundation
 
 // 시작시간 00:52
 
-func solution(_ w: Int, _ h: Int) -> Int64 {
+private func solution(_ w: Int, _ h: Int) -> Int64 {
     var answer: Int64 = 0
     let constant: Double = Double(h) / Double(w) > 1 ? (Double(h) / Double(w)).rounded(.up) : (Double(w) / Double(h)).rounded(.up)
 
@@ -42,9 +42,7 @@ func solution(_ w: Int, _ h: Int) -> Int64 {
     }()
     return answer
 }
-print(solution(10234, 1777))
 
-////
 //print(solution(10234, 1777))
 //print(solution(7, 14))  // 78
 //print(solution(4, 8))   // 21

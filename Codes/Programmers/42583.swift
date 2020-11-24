@@ -10,7 +10,7 @@ import Foundation
 
 // 풀이 시작 : 12 : 33
 
-func solution(_ bridge_length: Int, _ weight: Int, _ truck_weights: [Int]) -> Int {
+private func solution(_ bridge_length: Int, _ weight: Int, _ truck_weights: [Int]) -> Int {
     
     var pendingQueue = QueueArray<Int>()
     var bridgeQueue = QueueArray<Int>()
@@ -42,10 +42,11 @@ func solution(_ bridge_length: Int, _ weight: Int, _ truck_weights: [Int]) -> In
     return count
 }
 
-print(solution(2, 10, [7,4,5,6]))
+//print(solution(2, 10, [7,4,5,6]))
 
 public protocol Queue {
     associatedtype Element
+    
     mutating func enQueue(_ element: Element) -> Bool
     mutating func deQueue() -> Element?
     var isEmpty: Bool { get }
@@ -53,18 +54,24 @@ public protocol Queue {
 }
 public struct QueueArray<T>: Queue {
     
+    @discardableResult
     public mutating func deQueue() -> T? {
         return isEmpty ? nil : array.removeFirst()
     }
+    
     private var array = Array<T>()
     public init() {}
+    
     
     public var isEmpty: Bool {
         return array.isEmpty
     }
+    
     public var peek: T? {
         return array.first
     }
+    
+    @discardableResult
     public mutating func enQueue(_ element: T) -> Bool {
         array.append(element)
         return true

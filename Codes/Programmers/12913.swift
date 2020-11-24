@@ -5,11 +5,11 @@
 //  Created by elesahich on 2020/08/17.
 //  Copyright © 2020 elesahich. All rights reserved.
 //
-//
+//  12913 땅따먹기
 
 import Foundation
 
-func solution(_ land: [[Int]]) -> Int {
+private func solution(_ land: [[Int]]) -> Int {
 
     var territory = land
     for index in 0..<land.count {
@@ -29,7 +29,7 @@ func solution(_ land: [[Int]]) -> Int {
 //    var beforeIndex = 0
 //    var maxValues = 0
 //
-//    for index in 0..<land.count - 1 {
+//    for index in 0..<land.count {
 //        var maxValue = land[index].max() ?? 0
 //        var maxIndex = land[index].firstIndex { $0 == maxValue } ?? 0
 //
@@ -46,4 +46,4 @@ func solution(_ land: [[Int]]) -> Int {
 //    return maxValues
 //}
 
-print(solution([[1,2,3,5],[5,6,7,8],[4,3,2,1]]))
+//print(solution([[1,2,3,5],[5,6,7,8],[4,3,2,1]]))

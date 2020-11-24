@@ -73,6 +73,6 @@ func solution(_ number: String, _ k: Int) -> String {
     }
     return String(storage.joined().prefix(number.count-k))
 }
-print(solution("4177252841", 4))
-print(solution("1924", 2))
+//print(solution("4177252841", 4))
+//print(solution("1924", 2))
 //print(solution("999", 2))

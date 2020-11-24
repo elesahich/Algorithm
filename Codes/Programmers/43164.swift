@@ -5,10 +5,9 @@
 //  Created by elesahich on 2020/09/01.
 //  Copyright © 2020 elesahich. All rights reserved.
 //  43164 여행경로
-
 import Foundation
 
-func solution(_ tickets:[[String]]) -> [String] {
+private func solution(_ tickets:[[String]]) -> [String] {
     var path: [String] = []
     var answer: [String] = []
     var visited: [Bool] = Array(repeating: false, count: tickets.count)
@@ -21,6 +20,7 @@ func solution(_ tickets:[[String]]) -> [String] {
         
         for i in 0..<ticket.count where answer.isEmpty {
             let infomation: (start: String, end: String) = (ticket[i].first!, ticket[i].last!)
+            print(infomation)
             
             if visited[i] == false && airport == infomation.start {
                 visited[i] = true
@@ -36,6 +36,9 @@ func solution(_ tickets:[[String]]) -> [String] {
 
     return answer
 }
+
+//print(solution([["ICN", "COO"], ["ICN", "BOO"], ["COO", "ICN"], ["BOO", "DOO"]]))
+
 
 //func solution(_ tickets: [[String]]) -> [String] {
 //
@@ -68,7 +71,6 @@ func solution(_ tickets:[[String]]) -> [String] {
 //    return trace
 //}
 
-print(solution([["ICN", "COO"], ["ICN", "BOO"], ["COO", "ICN"], ["BOO", "DOO"]]))
 //print(solution([["ICN" ,"B"], ["ICN", "C"], ["C", "D"], ["D", "ICN"]]))
 //print(solution([["ICN", "SFO"], ["ICN", "ATL"], ["SFO", "ATL"], ["ATL", "ICN"], ["ATL","SFO"]]))
 //print(solution([["ICN", "JFK"], ["HND", "IAD"], ["JFK", "HND"]]))

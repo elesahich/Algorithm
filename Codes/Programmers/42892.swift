@@ -8,8 +8,6 @@
 
 import Foundation
 
-// root랑 Current를 만들어서 가면 됩니다
-
 public class BinaryNode<T> {
     public var value: T
     public var leftChild: BinaryNode?
@@ -53,7 +51,7 @@ func setupBinaryTree(_ array: [[Int]], _ current : BinaryNode<[Int]>, _ idx: Int
     }
 }
 
-func solution(_ nodeinfo: [[Int]]) -> [[Int]] {
+private func solution(_ nodeinfo: [[Int]]) -> [[Int]] {
     // 0 : Input Array의 Index, 1 : 정렬된 Array의 X값, 2: 정렬된 Array의 Y값
     var tuple: [[Int]] = []
     for index in 0..<nodeinfo.count {

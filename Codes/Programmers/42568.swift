@@ -8,9 +8,10 @@
 
 import Foundation
 
+
 // 시작시간 19:12
 
-func solution(_ progress: [Int], _ speeds: [Int]) -> [Int] {
+private func programers42568(_ progress: [Int], _ speeds: [Int]) -> [Int] {
     // 뒤에 있는 기능은 앞에 있는기능이 배포될 때 함께 배포
     // 각 배포마다 몇개의 기능이 배포되는지를 return
     let progressArray = progress
@@ -63,5 +64,5 @@ func solution(_ progress: [Int], _ speeds: [Int]) -> [Int] {
     return returnArray
 }
 
-print(solution([93,30,55], [1,30,5]))
+//print(solution([93,30,55], [1,30,5]))
 //print(solution([92,25,51,20,70], [3,50,10,10,30]))

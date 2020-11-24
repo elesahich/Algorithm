@@ -8,7 +8,7 @@
 
 import Foundation
 
-func solution(_ priorities: [Int], _ location: Int) -> Int {
+private func solution(_ priorities: [Int], _ location: Int) -> Int {
     var count = 0
     var targetLoaction = location
     var printerQueue: [Int] = priorities
@@ -20,7 +20,6 @@ func solution(_ priorities: [Int], _ location: Int) -> Int {
             let first = printerQueue.removeFirst()
             printerQueue.append(first)
             targetLoaction = targetLoaction != 0 ? targetLoaction - 1 : printerQueue.count - 1
-
         } else {
             let first = printerQueue.removeFirst()
             if first != priorityAtLoaction {
@@ -39,4 +38,4 @@ func solution(_ priorities: [Int], _ location: Int) -> Int {
 }
 
 //print(solution([2, 1, 3, 2], 2)) // return 1
-print(solution([1, 1, 9, 1, 1, 1], 0)) // return 5
+//print(solution([1, 1, 9, 1, 1, 1], 0)) // return 5
